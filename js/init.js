@@ -411,7 +411,7 @@
 			read (an) {
 				// get values from DOM
 				// read("ATTRIBUTE_NAME") => {DATA}
-				// EXAMPLE: ==================================
+				// EXAMPLE: 
 				// <body>
 				//   <input VN="A" value="100"/>
 				//   <span VN="B">200</span>
@@ -425,7 +425,7 @@
 			write (d, an) {
 				// set values to DOM
 				// write({DATA}, "ATTRIBUTE_NAME") => this
-				// EXAMPLE: ==================================
+				// EXAMPLE: 
 				// (new _C_(document.body)).set({"A":"100","B":"200"}, "VN") => this
 				// => <body>
 				//   <input VN="A" value="100"/>
